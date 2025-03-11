@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Cursed Timer ULiL';
+    src: url('https://calvind3v.github.io/custome-fonts-for-playing/fonts/CursedTimerUlil-Aznm.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    background: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    font-family: Verdana;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 35.89px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #EEEEEE;
+}
+
+.score {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 126.67px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #F94F6D;
+}
+
+.scoreContainer {
+    width: 155;
+    height: 120;
+    top: 125px;
+    left: 82px;
+    border-radius: 5px;
+    background: #080001;
+    border: 3px solid #080001
+}
+
+.addBtn {
+    width: 45;
+    height: 45;
+    top: 271px;
+    left: 82px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-family: Cursed Timer ULiL;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27.81px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #9AABD8;
+    padding: 6px;
+}
+
+.btnContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
